@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+    --header-color: #F03C42 ;
+    --main-section-one-color: #222374;
+    --main-section-two-color: #FFFFFF;
+    --footer-color: #000000;
+    --box-color: #CCCCCC;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+      
+}
+
+header {
+background-color: var(--header-color);
+}
+
+.first-square {
+    width: 960px;
+    height: 127px;
+    margin: 0 auto;
+    background-color: var(--box-color);
+    border-radius: 8px;
+}
+
+.second-square {
+    max-width: 960px;
+    max-height: 127px;
+    margin: 0 auto;
+    background-color: var(--main-section-one-color);
+    color: var(--main-section-two-color);
+}
+
+.third-square {
+    max-width: 960px;
+    max-height: 127px;
+    margin: 0 auto;
+    color: var(--main-section-two-color);
+}
+
+h1 {
+  font-size: 32px;
+  display: inline;
+}
+
+h2 {
+    font-size: 20px ;
+    display: block;
+}
+
+p {
+   font-size: 14px;   
+}
+
+
+.section-one {
+        width: 1200px;
+        height: 418px;
+        left: 0px;
+        top: 100px; 
+}
+
+.color-so {
+    background-color: var(--main-section-one-color);
+}
+
+.color-st {
+    background-color: var(--main-section-two-color);
+}
+
+.color-mod {
+    color: var(--header-color);
+}
+
+.color-subtittle {
+    color: var(--box-color);
+}
+
+.section-two {
+    width: 1200px;
+    height: 880px;
+    left: 0px;
+    top: 518px;
+}
+
+
+
+footer {
+    background-color: var(--footer-color);
+    color: var(--main-section-two-color);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 550 66 550 150;
+}
