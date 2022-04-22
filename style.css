@@ -1,100 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
-:root{
-    --header-color: #F03C42 ;
-    --main-section-one-color: #222374;
-    --main-section-two-color: #FFFFFF;
-    --footer-color: #000000;
-    --box-color: #CCCCCC;
+:root {
+    --color-red: #F03C42;
+    --color-blue: #222374;
+    --color-grey: #CCCCCC;
+    --color-white:#FFFFFF;
+    --color-black: #000000;
 }
 
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Poppins", sans-serif;
     box-sizing: border-box;
-      
-}
+    margin: 0;
+    padding: 0;
+  }
 
-header {
-background-color: var(--header-color);
-}
+  header{
+      background-color: var(--color-red);
+      height: 70px;
+      display: flex;
+      align-items: center;
+  }
 
-.first-square {
-    width: 960px;
-    height: 127px;
-    margin: 0 auto;
-    background-color: var(--box-color);
-    border-radius: 8px;
-}
+  nav h1 {
+      color: var(--color-white);
+      font-size: 18px;
+    }
 
-.second-square {
-    max-width: 960px;
-    max-height: 127px;
-    margin: 0 auto;
-    background-color: var(--main-section-one-color);
-    color: var(--main-section-two-color);
-}
+ nav p{
+     color: var(--color-white);
+     font-size: 14px;
+     padding-left: 10px;
+ }
 
-.third-square {
-    max-width: 960px;
-    max-height: 127px;
-    margin: 0 auto;
-    color: var(--main-section-two-color);
-}
+ .Container{
+     width: 100%;
+     max-width: 960px;
+     margin: 0 auto;
+ }
 
-h1 {
-  font-size: 32px;
-  display: inline;
-}
+ .nav-content{
+     display: flex;
+     justify-content: space-between;
+     padding-right: 50px;
+     padding-left: 50px;
+ }
 
-h2 {
-    font-size: 20px ;
-    display: block;
-}
+ .instagram-img{
+     display: flex;
+     align-items: center;
 
-p {
-   font-size: 14px;   
-}
-
-
-.section-one {
-        width: 1200px;
-        height: 418px;
-        left: 0px;
-        top: 100px; 
-}
-
-.color-so {
-    background-color: var(--main-section-one-color);
-}
-
-.color-st {
-    background-color: var(--main-section-two-color);
-}
-
-.color-mod {
-    color: var(--header-color);
-}
-
-.color-subtittle {
-    color: var(--box-color);
-}
-
-.section-two {
-    width: 1200px;
-    height: 880px;
-    left: 0px;
-    top: 518px;
-}
-
-
-
-footer {
-    background-color: var(--footer-color);
-    color: var(--main-section-two-color);
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 550 66 550 150;
-}
+ }
